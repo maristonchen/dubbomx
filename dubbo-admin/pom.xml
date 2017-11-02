@@ -19,7 +19,6 @@
 	<parent>
 		<groupId>com.alibaba</groupId>
 		<artifactId>dubbo-parent</artifactId>
-        <!--×¢:dubbo-adminÓÃµÄweb¿ò¼Ü,²»Ö§³Ö×îÐÂµÄspring,ËùÒÔ¸ÃÏîÄ¿ÈÔÈ»Î¬»¤2.8.4-->
         <version>2.8.4a</version>
 	</parent>
 	<artifactId>dubbo-admin</artifactId>
@@ -30,7 +29,7 @@
 		<wtpversion>1.5</wtpversion>
 		<wtpContextName>/</wtpContextName>
 		<eclipse.useProjectReferences>false</eclipse.useProjectReferences>
-		<skip_maven_deploy>false</skip_maven_deploy>
+		<skip_maven_deploy>true</skip_maven_deploy>
         <maven-jetty-plugin_version>8.1.15.v20140411</maven-jetty-plugin_version>
         <spring.bom.version>3.2.16.RELEASE</spring.bom.version>
 	</properties>
@@ -140,7 +139,7 @@
 	</dependencies>
 	<build>
 		<plugins>
-            <!-- ÅäÖÃTomcat²å¼þ -->
+            <!-- ï¿½ï¿½ï¿½ï¿½Tomcatï¿½ï¿½ï¿½ -->
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>

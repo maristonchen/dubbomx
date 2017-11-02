@@ -82,6 +82,16 @@
 			</build>
 		</profile>
 	</profiles>
+	<distributionManagement>
+		<repository>
+			<id>yhxd-nexus-releases</id>
+			<url>http://120.76.200.244:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>yhxd-nexus-snapshots</id>
+			<url>http://120.76.200.244:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<properties>
 		<!-- Common libs -->
 		<!--<spring.bom.version>3.2.9.RELEASE</spring.bom.version>-->
